@@ -1,0 +1,1658 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+a {
+  outline: none;
+  text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 4vw;
+  }
+  body {
+    line-height: 1.7;
+    letter-spacing: 1px;
+    color: rgba(0,0,0,1);
+    word-break: break-all;
+    word-wrap: break-word;
+    font-family: "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック",sans-serif;
+  }
+  header {
+    position: relative;
+    height: 25.115rem;
+    margin: 40px 0 0 0;
+  }
+  header div.topbar {
+    position: absolute;
+    left: 0;
+    top: -40px;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0,0,0,1);
+  }
+  header div.bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  header div.bg p {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/pht_keyvisual.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  header div.logo {
+    position: absolute;
+    left: 1.142rem;
+    top: 1.142rem;
+    height: 0;
+  }
+  header div.logo span {
+    display: inline-block;
+    width: 5.651rem;
+    height: 3.168rem;
+    font-size: 0;
+    vertical-align: top;
+    background-image: url(../img/logo_kvtop.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% auto;
+  }
+  header>div.inner {
+    position: relative;
+    height: 100%;
+    z-index: 1;
+  }
+  header div.titlebox {
+    position: absolute;
+    left: 0;
+    top: 7.372rem;
+    width: 100%;
+    height: 0;
+  }
+  header div.titlebox h1 {
+    text-align: center;
+  }
+  header div.titlebox h1 p {
+    width: 20.777rem;
+    height: 5.327rem;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    vertical-align: top;
+  }
+  header div.titlebox h1 p span {
+    background-image: url(../img/txt_maintitle.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% auto;
+  }
+  header div.titlebox h2 {
+    text-align: center;
+    margin: -0.761rem 0 0 0;
+  }
+  header div.titlebox h2 p {
+    width: 17.071rem;
+    height: 5.217rem;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    vertical-align: top;
+  }
+  header div.titlebox h2 p span {
+    background-image: url(../img/txt_subtitle_a.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% auto;
+  }
+  header>div.inner {
+    position: relative;
+    height: 100%;
+    z-index: 1;
+  }
+  header div.titlebox {
+    position: absolute;
+    left: 0;
+    top: 7.372rem;
+    width: 100%;
+    height: 0;
+  }
+  header div.titlebox h1 {
+    text-align: center;
+  }
+  header div.titlebox h1 p {
+    width: 20.777rem;
+    height: 5.327rem;
+  }
+  header div.titlebox p {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    vertical-align: top;
+  }
+  header div.titlebox h1 p span {
+    background-image: url(../img/txt_maintitle.png);
+  }
+  header div.titlebox p span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% auto;
+  }
+  header div.titlebox h2 {
+    text-align: center;
+    margin: -0.761rem 0 0 0;
+  }
+  header div.titlebox h2 p {
+    width: 17.071rem;
+    height: 5.217rem;
+  }
+  header div.titlebox h2 p span {
+    background-image: url(../img/txt_subtitle_a.png);
+  }
+  header div.titlebox p span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% auto;
+  }
+  p.laser {
+    position: absolute;
+    overflow: hidden;
+  }
+  p.laser i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% auto;
+  }
+  .anmLusterA {
+    -webkit-animation-name: myanime_luster_a;
+    -webkit-animation-duration: 12s;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-transform-origin: left top;
+    animation-name: myanime_luster_a;
+    animation-duration: 12s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    transform-origin: left top;
+  }
+  header p.laser.n1 {
+    left: 0;
+    top: 5.327rem;
+    width: 5.175rem;
+    height: 5.289rem;
+  }
+  header p.laser.n1 i {
+    background-image: url(../img/laser_keyvisual_a.png);
+  }
+  header p.laser.n2 {
+    left: 0;
+    top: -1.903rem;
+    width: 13.242rem;
+    height: 13.585rem;
+  }
+  header p.laser.n2 i {
+    background-image: url(../img/laser_keyvisual_b.png);
+  }
+  header p.laser.n3 {
+    left: 4.490rem;
+    top: 0;
+    width: 11.530rem;
+    height: 11.149rem;
+  }
+  header p.laser.n3 i {
+    background-image: url(../img/laser_keyvisual_c.png);
+  }
+  header p.laser.n4 {
+    right: 0;
+    top: 3.349rem;
+    width: 7.116rem;
+    height: 7.420rem;
+  }
+  header p.laser.n4 i {
+    background-image: url(../img/laser_keyvisual_d.png);
+  }
+  header p.laser.n5 {
+    right: 8.904rem;
+    top: 12.253rem;
+    width: 13.318rem;
+    height: 12.976rem;
+  }
+  header p.laser.n5 i {
+    background-image: url(../img/laser_keyvisual_e.png);
+  }
+  header p.laser.n6 {
+    right: 0;
+    top: 11.035rem;
+    width: 5.936rem;
+    height: 6.279rem;
+  }
+  header p.laser.n6 i {
+    background-image: url(../img/laser_keyvisual_f.png);
+  }
+  header p.laser.n7 {
+    right: 0;
+    top: 12.177rem;
+    width: 8.752rem;
+    height: 9.057rem;
+  }
+  header p.laser.n7 i {
+    background-image: url(../img/laser_keyvisual_g.png);
+  }
+  header p.laser.n8 {
+    right: 0;
+    top: 19.407rem;
+    width: 6.393rem;
+    height: 5.784rem;
+  }
+  header p.laser.n8 i {
+    background-image: url(../img/laser_keyvisual_h.png);
+  }
+  section.dtcounter {
+    position: relative;
+  }
+  section.dtcounter div.barbox {
+    overflow: hidden;
+    background-color: rgba(255,255,255,1);
+  }
+  section.dtcounter div.barbox div.bar.olym {
+    float: left;
+    width: 40%;
+    padding: 0.6rem 0 0 0;
+    color: rgba(255,255,255,1);
+    background-color: rgba(36,148,90,1);
+    position: relative;
+    height: 6rem;
+    line-height: 1.4;
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  section.dtcounter div.barbox div.bar {
+    position: relative;
+    height: 6rem;
+    line-height: 1.4;
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  section.dtcounter div.barbox div.bar.olym i.tri {
+    position: absolute;
+    right: -5.999rem;
+    top: 0;
+    border-style: solid;
+    border-width: 6rem 6rem 0 0;
+    border-color: rgba(36,148,90,1) transparent transparent transparent;
+    z-index: 1;
+  }
+  section.dtcounter div.barbox div.bar span.day {
+    font-size: 2rem;
+    vertical-align: middle;
+  }
+  section.dtcounter div.barbox div.bar.para {
+    float: right;
+    width: 60%;
+    padding: 0.6rem 0 0 4rem;
+    color: rgba(36,148,90,1);
+    background-color: rgba(255,255,255,1);
+  }
+
+
+
+}
+@media screen and (min-width: 1041px) {
+  html {
+    font-size: 16px;
+  }
+  body {
+    line-height: 1.7;
+    letter-spacing: 1px;
+    color: rgba(0,0,0,1);
+    font-family: "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック",sans-serif;
+    word-break: break-all;
+    background-color: #edeff2;
+  }
+  h1, h2, h3, h4, h5, h6, th, input, select, textarea {
+    font-size: inherit;
+    font-weight: normal;
+  }
+  .sp {
+    display: none;
+  }
+  header {
+    position: relative;
+    height: 770px;
+    overflow: hidden;
+  }
+  header div.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  header div.bg p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/pht_keyvisual.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-size: cover;
+  }
+  header div.logo {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+  }
+  header div.logo span {
+    display: inline-block;
+    width: 210px;
+    height: 113px;
+    font-size: 0;
+    vertical-align: top;
+    background-image: url(../img/logo_kvtop.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: auto auto;
+  }
+  header > div.inner {
+    position: relative;
+    height: 100%;
+    z-index: 1;
+    width: 1040px;
+    margin: 0 auto;
+  }
+  header div.titlebox {
+    position: absolute;
+    top: 295px;
+    width: 100%;
+    /* height: 0; */
+  }
+  header div.titlebox p {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    opacity: 0;
+  }
+  header div.titlebox h1 {
+    text-align: center;
+  }
+  header div.titlebox h1 p {
+    width: 810px;
+    height: 180px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+  }
+  header div.titlebox p span {
+    background-image: url(../img/txt_maintitle.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size:  auto 100%;
+  }
+  header div.titlebox h2 {
+    text-align: center;
+    margin: -10px 0 0 0;
+  }
+  header div.titlebox h2 p {
+    width: 1040px;
+    height: 45px;
+  }
+  header div.titlebox h2 p span {
+    background-image: url(../img/txt_subtitle_a.png);
+  }
+
+  header p.laser {
+    /* display: none; */
+    position: absolute;
+    overflow: hidden;
+  }
+  p.laser i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: auto auto;
+    opacity: 0;
+  }
+  .laser {
+    position: absolute;
+    overflow: hidden;
+  }
+  .anmLusterA {
+    -webkit-animation-name: myanime_luster_a;
+    -webkit-animation-duration: 12s;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-transform-origin: left top;
+    animation-name: myanime_luster_a;
+    animation-duration: 12s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    transform-origin: left top;
+  }
+  header p.laser.n1 {
+    left: 0;
+    top: 362px;
+    width: 249px;
+    height: 252px;
+  }
+  header p.laser.n1 i {
+    background-image: url(../img/laser_keyvisual_a.png);
+  }
+  header p.laser.n2 {
+    left: 0;
+    top: 76px;
+    width: 578px;
+    height: 592px;
+  }
+  header p.laser.n2 i {
+    background-image: url(../img/laser_keyvisual_b.png);
+  }
+  header p.laser.n3 {
+    left: 496px;
+    top: 0;
+    width: 344px;
+    height: 331px;
+  }
+  header p.laser.n3 i {
+    background-image: url(../img/laser_keyvisual_c.png);
+  }
+  header p.laser.n4 {
+    right: 100px;
+    top: 0;
+    width: 363px;
+    height: 337px;
+  }
+  header p.laser.n4 i {
+    background-image: url(../img/laser_keyvisual_d.png);
+  }
+  header p.laser.n5 {
+    right: 556px;
+    top: 454px;
+    width: 397px;
+    height: 317px;
+  }
+  header p.laser.n5 i {
+    background-image: url(../img/laser_keyvisual_e.png);
+  }
+  header p.laser.n6 {
+    right: 0;
+    top: 230px;
+    width: 211px;
+    height: 225px;
+  }
+  header p.laser.n6 i {
+    background-image: url(../img/laser_keyvisual_f.png);
+  }
+  header p.laser.n7 {
+    right: 0;
+    top: 278px;
+    width: 286px;
+    height: 298px;
+  }
+  header p.laser.n7 i {
+    background-image: url(../img/laser_keyvisual_g.png);
+  }
+  header p.laser.n8 {
+    right: 0;
+    top: 488px;
+    width: 353px;
+    height: 340px;
+  }
+  header p.laser.n8 i {
+    background-image: url(../img/laser_keyvisual_h.png);
+  }
+  .a {
+    animation-delay: 0s;
+  }
+  .b {
+    animation-delay: 0.2s;
+  }
+  .c {
+    animation-delay: 0.3s;
+  }
+  .d {
+    animation-delay: 0.4s;
+  }
+  .e {
+    animation-delay: 0.2s;
+  }
+  .f {
+    animation-delay: 0.1s;
+  }
+  .g {
+    animation-delay: 0.3s;
+  }
+  .h {
+    animation-delay: 0.1s;
+  }
+  nav {
+    position: relative;
+    height: 72px;
+    background-color: rgba(0,0,0,1);
+    z-index: 1;
+  }
+  nav>div.inner {
+    position: relative;
+    width: 1040px;
+    margin: 0 auto 0 auto;
+  }
+  nav ul {
+    padding: 4px 0 4px 0;
+    font-size: 0;
+    text-align: center;
+  }
+  nav ul>li {
+    display: inline-block;
+    vertical-align: top;
+    border-style: solid;
+    border-width: 0 0 0 1px;
+    border-color: rgba(255,255,255,1);
+    -webkit-transform: skewX(-45deg);
+    transform: skewX(-45deg);
+  }
+  nav ul>li a {
+    display: block;
+    height: 64px;
+    white-space: nowrap;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(255,255,255,0);
+    -webkit-transition-property: background-color;
+    transition-property: background-color;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+  nav ul>li a span {
+    display: inline-block;
+    position: relative;
+    line-height: 64px;
+    font-size: 15px;
+    color: rgba(255,255,255,1);
+    -webkit-transform: skewX(45deg);
+    transform: skewX(45deg);
+  }
+  nav ul>li:nth-of-type(1) a {
+    width: 140px;
+  }
+  nav ul>li:nth-of-type(2) a {
+    width: 185px;
+  }
+  nav ul>li:nth-of-type(3) a {
+    width: 175px;
+  }
+  nav ul>li:nth-of-type(4) a {
+    width: 150px;
+  }
+  nav ul>li:nth-of-type(5) a {
+    width: 190px;
+  }
+  nav ul>li:nth-of-type(6) a {
+    width: 185px;
+  }
+  nav ul>li a span.ex {
+    left: 5px;
+    top: 14px;
+    line-height: 20px;
+  }
+
+  .dtcounter {
+    position: relative;
+  }
+  section.dtcounter div.barbox {
+    overflow: hidden;
+    background-color: rgba(255,255,255,1);
+  }
+  section.dtcounter div.barbox div.bar.olym {
+    float: left;
+    width: 47%;
+    padding: 0 20px 0 0;
+    text-align: right;
+    color: rgba(255,255,255,1);
+    background-color: rgba(36,148,90,1);
+  }
+  section.dtcounter div.barbox div.bar {
+    position: relative;
+    height: 70px;
+    line-height: 75px;
+    font-weight: bold;
+  }
+  section.dtcounter div.barbox div.bar.olym i.tri {
+    position: absolute;
+    right: -69px;
+    top: 0;
+    border-style: solid;
+    border-width: 70px 70px 0 0;
+    border-color: rgba(36,148,90,1) transparent transparent transparent;
+    z-index: 1;
+  }
+  section.dtcounter div.barbox div.bar span.day {
+    font-size: 45px;
+    vertical-align: middle;
+  }
+  section.dtcounter div.barbox div.bar.para {
+    float: right;
+    width: 53%;
+    padding: 0 0 0 80px;
+    text-align: left;
+    color: rgba(36,148,90,1);
+    background-color: rgba(255,255,255,1);
+  }
+
+  section.news {
+    position: relative;
+  }
+  section>div.inner {
+    position: relative;
+    top: 40px;
+    opacity: 0;
+    width: 1040px;
+    margin: 0 auto 0 auto;
+  }
+  section.news h2 {
+    position: absolute;
+    left: 55px;
+    top: 65px;
+  }
+  section.news h2 p {
+    display: inline-block;
+    width: 63px;
+    height: 20px;
+    font-size: 0;
+    vertical-align: top;
+    background-image: url(../img/txt_secttitle_news.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: auto auto;
+  }
+  section.news div.newsbox {
+    width: 820px;
+    padding: 50px 0 0 0;
+    margin: 0 55px 0 auto;
+  }
+  section.news div.newsbox dl.each {
+    position: relative;
+    padding: 10px 0 10px 0;
+    border-style: dotted;
+    border-width: 0 0 1px 0;
+    border-color: rgba(0,0,0,1);
+  }
+  section.news div.newsbox dl.each>dt {
+    display: inline-block;
+    width: 125px;
+    font-size: 17px;
+    vertical-align: top;
+  }
+  section.news div.newsbox dl.each>dd {
+    display: inline-block;
+    max-width: 688px;
+    font-size: 17px;
+    vertical-align: top;
+  }
+  section.news div.newsbox dl.each>dd a {
+    position: relative;
+    color: rgba(0,0,0,1);
+    text-decoration: underline;
+    opacity: 1;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  section.news div.newsbox dl.each.new>dd i::after, section.news div.newsbox dl.each.new>dd span::after {
+    content: "New";
+    position: absolute;
+    bottom: 11px;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgba(255,0,0,1);
+    pointer-events: none;
+    text-decoration: none;
+    padding: 0 0 0 10px;
+    width: 50px;
+  }
+  section.news div.jumpbox {
+    padding: 70px 0 70px 0;
+    text-align: center;
+  }
+  section.news div.jumpbox a {
+    display: inline-block;
+    position: relative;
+    width: 460px;
+    height: 70px;
+    line-height: 72px;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgba(255,255,255,1);
+    vertical-align: top;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(255,255,255,1);
+    background-color: rgba(0,0,0,0.5);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  a.mybutton {
+    -webkit-transition-property: color,background-color;
+    transition-property: color,background-color;
+  }
+
+  section.statement {
+    position: relative;
+    height: 940px;
+    background-image: url(../img/pht_bg_statement.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-size: cover;
+  }
+  section.statement h2 {
+    padding: 70px 0 0 0;
+    text-align: center;
+    font-size: inherit;
+    font-weight: normal;
+  }
+  section.statement h2 p {
+    display: inline-block;
+    position: relative;
+    width: 450px;
+    height: 50px;
+    vertical-align: top;
+    font-size: 0;
+    background-image: url(../img/txt_secttitle_statement.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: auto auto;
+  }
+  section.statement h2 p i.line {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    width: 100%;
+    height: 3px;
+    background-image: url(../img/obj_underline_a.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: auto auto;
+  }
+  section.statement div.copybox {
+    position: absolute;
+    left: 40px;
+    top: 200px;
+    color: rgba(255,255,255,1);
+  }
+  section.statement div.copybox h3 {
+    width: 670px;
+    padding: 0 0 13px 0;
+    font-size: 28px;
+  }
+  section.statement div.copybox div.note {
+    width: 670px;
+    line-height: 2.5;
+    font-size: 17px;
+  }
+  section.statement div.objectbox {
+    position: absolute;
+    left: 40px;
+    top: 515px;
+  }
+  section.statement div.objectbox p {
+    display: inline-block;
+    width: 291px;
+    height: 158px;
+    vertical-align: top;
+    font-size: 0;
+    background-image: url(../img/obj_statement.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: auto auto;
+  }
+  section.statement div.jumpbox {
+    position: absolute;
+    left: 0;
+    top: 758px;
+    width: 100%;
+    text-align: center;
+  }
+  section.statement div.jumpbox a {
+    display: inline-block;
+    position: relative;
+    width: 460px;
+    height: 70px;
+    line-height: 72px;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgba(255,255,255,1);
+    vertical-align: top;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(255,255,255,1);
+    background-color: rgba(0,0,0,0.5);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  a.mybutton {
+    -webkit-transition-property: color,background-color;
+    transition-property: color,background-color;
+  }  
+  section.statement p.laser.n1 {
+    right: 0;
+    top: 300px;
+    width: 412px;
+    height: 425px;
+  }
+  section.statement p.laser.n1 i {
+    background-image: url(../img/laser_statement_a.png);
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+  }
+  section.statement p.laser.n2 {
+    right: 0;
+    top: 352px;
+    width: 493px;
+    height: 506px;
+  }
+  section.statement p.laser.n2 i {
+    background-image: url(../img/laser_statement_b.png);
+    -webkit-animation-delay: 2.0s;
+    animation-delay: 2.0s;
+  }
+  section.project {
+    position: relative;
+  }
+  section.project h2 {
+    padding: 85px 0 50px 0;
+    text-align: center;
+  }
+  section.project h2 p {
+    display: inline-block;
+    position: relative;
+    width: 450px;
+    height: 45px;
+    vertical-align: top;
+    font-size: 0;
+    background-image: url(../img/txt_secttitle_project.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: auto auto;
+    z-index: 1;
+  }
+  section.project h2 p i.line {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    width: 100%;
+    height: 3px;
+    background-image: url(../img/obj_underline_b.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: auto auto;
+  }
+  section.project div.notebox {
+    padding: 0 0 30px 0;
+    font-size: 22px;
+    text-align: center;
+  }
+  section.project div.listbox {
+    position: relative;
+    font-size: 0;
+    z-index: 1;
+  }
+  section.project div.listbox div.each.edge {
+    margin: 0 0 60px 0;
+  }
+  section.project div.listbox div.each {
+    display: inline-block;
+    position: relative;
+    width: 318px;
+    height: 339px;
+    vertical-align: top;
+    background-image: url(../img/box_eachproject_a.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: auto auto;
+    margin: 0 0 60px 42px;
+    cursor: pointer;
+  }
+  section.project div.listbox div.each dl {
+    padding: 0 10px 0 10px;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+  }
+  section.project div.listbox div.each dl>dt {
+    padding: 10px 0 10px 0;
+  }
+  section.project div.listbox div.each dl>dt p {
+    width: 298px;
+    height: 166px;
+    overflow: hidden;
+    text-align: center;
+  }
+  section.project div.listbox div.each dl>dt p img {
+    width: 100%;
+    vertical-align: top;
+  }
+  section.project div.listbox div.each dl>dd {
+    font-size: 14px;
+  }
+  section.project div.listbox div.each dl>dd p.meta {
+    padding: 0 0 10px 0;
+    font-size: 12px;
+  }
+  section.project div.listbox div.each dl>dd p.meta span.type {
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    line-height: 22px;
+    text-align: center;
+    white-space: nowrap;
+    color: #ffffff;
+    margin: 0 10px 0 0;
+    background-color: #e4007f;
+  }
+  section.project div.listbox div.each dl>dd p.meta span.date {
+    display: inline-block;
+    position: relative;
+  }
+  section.project div.listbox div.each.new dl>dd p.meta span.date::after {
+    content: "New";
+    position: absolute;
+    right: -45px;
+    bottom: -1px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(255,0,0,1);
+  }
+  section.project div.listbox div.each dl>dd p.title {
+    height: 72px;
+  }
+  section.project div.listbox div.each div.detail {
+    display: none;
+  }
+  #feature01 {
+    position: relative;
+  }
+  #feature01 div.title {
+    display: inline-block;
+    width: 1040px;
+    padding: 62px 0 25px 0;
+  }
+  #feature01 div.datebox {
+    width: 90px;
+    height: 94px;
+    background-color: #00833e;
+    color: #ffffff;
+    float: left;
+    line-height: 1;
+  }
+  #feature01 div.datebox span.year-month {
+    display: inline-block;
+    width: 76px;
+    height: 30px;
+    margin: 0 7px;
+    padding: 10px 0 5px;
+    border-bottom: 1px solid #ffffff;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: top;
+  }
+  #feature01 div.datebox span.day {
+    display: inline-block;
+    width: 76px;
+    height: 64px;
+    margin: 0 7px;
+    padding: 10px 0;
+    font-size: 48px;
+    text-align: center;
+  }
+  #feature01 h2 {
+    display: inline-block;
+    width: 910px;
+    padding: 0 0 0 38px;
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: left;
+    float: left;
+    color: #ffffff;
+    white-space: normal;
+  }
+  #feature01 .row {
+    padding-bottom: 50px;
+    overflow: hidden;
+  }
+  #feature01 .photo.top {
+    transition: 1s linear 0s;
+  }
+  #feature01 .photo {
+    opacity: 0;
+    transform: translate(0, 40px);
+    transition: 1s linear 0.2s;
+  }  
+  #feature01 .row img {
+    width: 100%;
+  }
+  #feature01 .row .txt.top {
+    padding: 15px 0 0 0;
+  }
+  #feature01 .txt.top {
+    opacity: 0;
+    transform: translate(0, 40px);
+    transition: 1s linear 0s;
+  }
+  #feature01 .txt {
+    opacity: 0;
+    transform: translate(0, 40px);
+    transition: 1s linear 0.4s;
+  }
+  #feature01 .row p {
+    text-align: left;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  section.project div.jumpbox {
+    width: 100%;
+    padding: 20px 0 70px 0;
+    text-align: center;
+  }
+  section.project div.jumpbox a {
+    display: inline-block;
+    position: relative;
+    width: 460px;
+    height: 70px;
+    line-height: 72px;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgba(255,255,255,1);
+    vertical-align: top;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(255,255,255,1);
+    background-color: rgba(0,0,0,0.5);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  section.project div.jumpbox a i.tri {
+    position: absolute;
+    right: 18px;
+    top: 25px;
+    border-style: solid;
+    border-width: 10px 0 10px 14px;
+    border-color: transparent transparent transparent rgba(255,255,255,1);
+  }
+  section.project p.laser.n1 {
+    left: 0;
+    top: 0;
+    width: 486px;
+    height: 473px;
+  }
+  section.project p.laser.n1 i {
+    background-image: url(../img/laser_project_a.png);
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+  }
+  section.project p.laser.n2 {
+    left: 0;
+    top: 258px;
+    width: 164px;
+    height: 177px;
+  }
+  section.project p.laser.n2 i {
+    background-image: url(../img/laser_project_b.png);
+    -webkit-animation-delay: 2.0s;
+    animation-delay: 2.0s;
+  }
+
+  section.adgallery {
+    position: relative;
+    height: 910px;
+    background-image: url(../img/pht_bg_adgallery.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-size: cover;
+  }
+  section.adgallery h2 {
+    padding: 70px 0 50px 0;
+    text-align: center;
+  }
+  section.adgallery h2 p {
+    display: inline-block;
+    position: relative;
+    width: 450px;
+    height: 45px;
+    vertical-align: top;
+    font-size: 0;
+    background-image: url(../img/txt_secttitle_adgallery.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: auto auto;
+  }
+  section.adgallery h2 p i.line {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    width: 100%;
+    height: 3px;
+    background-image: url(../img/obj_underline_a.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: auto auto;
+  }
+  section.adgallery div.notebox {
+    padding: 0 0 0 100px;
+  }
+  section.adgallery div.notebox p {
+    display: inline-block;
+    width: 830px;
+    font-size: 22px;
+    color: rgba(255,255,255,1);
+    vertical-align: top;
+  }
+  section.adgallery div.posterbox {
+    padding: 20px 0 50px 0;
+    text-align: center;
+  }
+  section.adgallery div.posterbox p {
+    display: inline-block;
+    width: 336px;
+    height: 476px;
+    font-size: 0;
+    vertical-align: top;
+    background-image: url(../img/obj_poster2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: auto auto;
+  }
+  section.adgallery div.jumpbox {
+    text-align: center;
+  }
+  section.adgallery div.jumpbox a {
+    display: inline-block;
+    position: relative;
+    width: 460px;
+    height: 70px;
+    line-height: 72px;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgba(255,255,255,1);
+    vertical-align: top;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(255,255,255,1);
+    background-color: rgba(0,0,0,0.5);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  section.adgallery div.jumpbox a i.tri {
+    position: absolute;
+    right: 18px;
+    top: 25px;
+    border-style: solid;
+    border-width: 10px 0 10px 14px;
+    border-color: transparent transparent transparent rgba(255,255,255,1);
+  }
+  section.adgallery p.laser.n1 {
+    right: 0;
+    top: 364px;
+    width: 479px;
+    height: 493px;
+  }
+  section.adgallery p.laser.n1 i {
+    background-image: url(../img/laser_adgallery_a.png);
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+  }
+  section.adgallery p.laser.n2 {
+    right: 0;
+    top: 418px;
+    width: 409px;
+    height: 423px;
+  }
+  section.adgallery p.laser.n2 i {
+    background-image: url(../img/laser_adgallery_b.png);
+    -webkit-animation-delay: 2.0s;
+    animation-delay: 2.0s;
+  }
+
+  section.tss {
+    position: relative;
+  }
+  section.tss div.arrowbox.appear {
+    left: 0;
+  }
+  section.tss div.arrowbox {
+    position: absolute;
+    left: -100%;
+    top: 180px;
+    width: 100%;
+    -webkit-transition-property: left;
+    transition-property: left;
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+  }
+  section.tss div.arrowbox p {
+    position: relative;
+    height: 28px;
+  }
+  section.tss div.arrowbox p.n1 {
+    background-color: rgba(1,130,63,1);
+  }
+  section.tss div.arrowbox p.n1 i {
+    border-style: solid;
+    border-width: 0 28px 28px 0;
+    border-color: transparent rgba(242,246,250,1) transparent transparent;
+  }
+  section.tss div.arrowbox p i {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  section.tss div.arrowbox p.n2 {
+    background-color: rgba(0,169,210,1);
+  }
+  section.tss div.arrowbox p {
+    position: relative;
+    height: 28px;
+  }
+  section.tss div.arrowbox p.n2 i {
+    border-style: solid;
+    border-width: 0 0 28px 28px;
+    border-color: transparent transparent rgba(242,246,250,1) transparent;
+  }
+  section.tss div.arrowbox p i {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  section.tss h2 {
+    padding: 85px 0 110px 0;
+    text-align: center;
+  }
+  section.tss h2 p {
+    display: inline-block;
+    position: relative;
+    width: 870px;
+    height: 80px;
+    vertical-align: top;
+    font-size: 0;
+    background-image: url(../img/txt_secttitle_tss.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: auto auto;
+  }
+  section.tss div.textbox {
+    padding: 0 0 35px 100px;
+  }
+  section.tss div.textbox p {
+    display: inline-block;
+    width: 895px;
+    font-size: 22px;
+    vertical-align: top;
+  }
+  section.tss div.listbox {
+    font-size: 0;
+  }
+  section.tss div.listbox label.each {
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    width: 500px;
+    height: 281px;
+    vertical-align: top;
+    font-size: 0;
+    cursor: pointer;
+    opacity: 0;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: auto auto;
+    -webkit-transition-property: top,opacity;
+    transition-property: top,opacity;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+}
+  section.tss div.listbox label.each:nth-of-type(2n-1) {
+    margin: 0 0 40px 0;
+  }
+  section.tss div.listbox label.each:nth-of-type(2n) {
+    margin: 0 0 40px 39px;
+  }
+  section.tss div.listbox label.each.appear {
+    top: 0;
+    opacity: 1;
+  }
+  section.tss div.listbox label.each span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+  }
+  section.tss div.listbox label.each[my_name="boxing"] {
+    background-image: url(../img/obj_tss_thumbnail_boxing.png);
+  }
+  section.tss div.listbox label.each[my_name="golf"] {
+    background-image: url(../img/obj_tss_thumbnail_golf.png);
+  }
+  section.tss div.listbox label.each[my_name="cycling"] {
+    background-image: url(../img/obj_tss_thumbnail_cycling.png);
+  }
+  section.tss div.listbox label.each[my_name="weightlifting"] {
+    background-image: url(../img/obj_tss_thumbnail_weightlifting.png);
+  }
+  section.tss div.listbox label.each span i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 76px;
+    height: 76px;
+    background-image: url(../img/btn_playmovie.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: auto auto;
+    margin: -38px 0 0 -38px;
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  section.tss div.jumpbox {
+    width: 100%;
+    padding: 35px 0 100px 0;
+    text-align: center;
+  }
+  section.tss div.jumpbox a {
+    display: inline-block;
+    position: relative;
+    width: 460px;
+    height: 70px;
+    line-height: 72px;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgba(255,255,255,1);
+    vertical-align: top;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(255,255,255,1);
+    background-color: rgba(0,0,0,0.5);
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+  }
+  section.tss div.jumpbox a i.tri {
+    position: absolute;
+    right: 18px;
+    top: 25px;
+    border-style: solid;
+    border-width: 10px 0 10px 14px;
+    border-color: transparent transparent transparent rgba(255,255,255,1);
+  }
+  section.tss p.laser.n1 {
+    left: 0;
+    top: 0;
+    width: 152px;
+    height: 152px;
+  }
+  section.tss p.laser.n1 i {
+    background-image: url(../img/laser_tss_a.png);
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+  }
+  section.tss p.laser.n2 {
+    right: 94px;
+    top: 0;
+    width: 175px;
+    height: 157px;
+  }
+  section.tss p.laser.n2 i {
+    background-image: url(../img/laser_tss_b.png);
+    -webkit-animation-delay: 2.0s;
+    animation-delay: 2.0s;
+  }
+  section.tohoku {
+    position: relative;
+    height: 910px;
+    background-image: url(../img/pht_bg_tohoku.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-size: cover;
+  }
+  section.tohoku h2 {
+    padding: 70px 0 50px 0;
+    text-align: center;
+  }
+  section.tohoku h2 p {
+    display: inline-block;
+    position: relative;
+    width: 450px;
+    height: 45px;
+    vertical-align: top;
+    font-size: 0;
+    background-image: url(../img/index/pc/txt_secttitle_tohoku.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: auto auto;
+  }
+  section.tohoku h2 p {
+    display: inline-block;
+    position: relative;
+    width: 450px;
+    height: 45px;
+    vertical-align: top;
+    font-size: 0;
+    background-image: url(../img/txt_secttitle_tohoku.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: auto auto;
+  }
+  section.tohoku h2 p i.line {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    width: 100%;
+    height: 3px;
+    background-image: url(../img/obj_underline_a.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: auto auto;
+  }
+  section.tohoku div.notebox {
+    padding: 0 0 0 100px;
+  }
+  section.tohoku div.notebox p {
+    display: inline-block;
+    width: 830px;
+    font-size: 22px;
+    color: rgba(255,255,255,1);
+    vertical-align: top;
+  }
+  section.tohoku div.posterbox {
+    padding: 100px 0 0 0;
+    text-align: center;
+  }
+  section.tohoku div.posterbox p {
+    display: inline-block;
+    width: 461px;
+    height: 284px;
+    font-size: 0;
+    vertical-align: top;
+    background-image: url(../img/obj_tohokuposter.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: auto auto;
+  }
+  section.tohoku div.jumpbox {
+    position: absolute;
+    left: 0;
+    top: 745px;
+    width: 100%;
+    text-align: center;
+  }
+  section.tohoku div.jumpbox a {
+    display: inline-block;
+    position: relative;
+    width: 460px;
+    height: 70px;
+    line-height: 72px;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgba(255,255,255,1);
+    vertical-align: top;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(255,255,255,1);
+    background-color: rgba(0,0,0,0.5);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  section.tohoku div.jumpbox a i.tri {
+    position: absolute;
+    right: 18px;
+    top: 25px;
+    border-style: solid;
+    border-width: 10px 0 10px 14px;
+    border-color: transparent transparent transparent rgba(255,255,255,1);
+  }
+  section.tohoku p.laser.n1 {
+    left: 0;
+    top: -85px;
+    width: 386px;
+    height: 386px;
+  }
+  section.tohoku p.laser.n1 i {
+    background-image: url(../img/laser_tohoku_a.png);
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+  }
+  section.tohoku p.laser.n2 {
+    left: 0;
+    top: -10px;
+    width: 353px;
+    height: 367px;
+  }
+  section.tohoku p.laser.n2 i {
+    background-image: url(../img/laser_tohoku_b.png);
+    -webkit-animation-delay: 2.0s;
+    animation-delay: 2.0s;
+  }
+  section.tohoku p.laser.n3 {
+    right: 0;
+    top: 598px;
+    width: 312px;
+    height: 313px;
+  }
+  section.tohoku p.laser.n3 i {
+    background-image: url(../img/laser_tohoku_c.png);
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+  }
+  footer {
+    padding: 20px 0 20px 0;
+    background-color: #ffffff;
+  }
+  footer p {
+    text-align: center;
+    font-size: 11px;
+  }
+
+  #officiallogo {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    z-index: 2;
+  }
+  #officiallogo span {
+    display: inline-block;
+    width: 243px;
+    height: 124px;
+    font-size: 0;
+    vertical-align: top;
+    background-color: rgba(255,255,255,1);
+    background-image: url(../img/logo_official.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: auto auto;
+  }
+
+}
